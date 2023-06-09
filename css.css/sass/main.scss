@@ -1,6 +1,7 @@
 @import "./utils/fonts.scss";
 @import "./utils/reset.scss";
 @import "./utils/variables.scss";
+@import "./components/buttons";
 
 body {
   font-family: var(--text-font-family);
