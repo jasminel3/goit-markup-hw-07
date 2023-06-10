@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
+@import "./utils/variables";
+
+body {
+  font-family: var(--text-font-family);
+  color: #212121;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 215px;
+  padding-right: 215px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.section {
+  padding-right: 215px;
+  padding-left: 215px;
+}
+
+/* HEADER-SECTION */
+
+@import "./components/header";
+
+/* PORTOFOLIO */
+
+@import "./components/portofolio";
+
+/* MAIN-SECTION */
+@import "./components/main" /* FOOTER-SECTION */ @import "./components/footer";
+
+/* MODAL-SECITON */
+
+@import "./components/modal";

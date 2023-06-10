@@ -1,0 +1,243 @@
+/* HERO-SECTION */
+
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  padding: 200px 0;
+  background-color: #2f303a;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/hero-image.jpg");
+}
+
+.hero-heading {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 136%;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.hero-button {
+  background-color: var(--link-active-color);
+  padding: 10px 20px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+/* QUALITIES-SECTION */
+
+.qualities-list {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.qualities-section__icon {
+  display: inline-flex;
+  padding: 0;
+  gap: 30px;
+  margin-bottom: 30px;
+  width: 270px;
+  height: 90px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  justify-content: center;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
+
+.qualities-section__title {
+  font-weight: 700;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  justify-content: space-between;
+}
+
+.qualities-section__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--text-alternate-color);
+  margin-right: 15px;
+}
+
+/* WHAT WE DO-SECTION */
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+
+.image-section {
+  padding-bottom: 94px;
+}
+
+.image-section {
+  display: flex;
+  gap: 30px;
+}
+
+.box {
+  position: relative;
+}
+
+.box__overlay {
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  position: absolute;
+  text-align: center;
+  width: 370px;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  top: 225px;
+  left: 0;
+  background: rgba(47, 48, 58, 0.8);
+}
+
+.image-section__second {
+  margin-left: 30px;
+}
+
+.image-section__third {
+  margin-right: 0px;
+}
+
+/* OUR TEAM-SECTION */
+
+.team-section {
+  background-color: #f5f4fa;
+}
+
+.img-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.img-section {
+  padding-right: 200px;
+}
+
+.team {
+  background-color: #fff;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-bottom: 94px;
+}
+
+.team__person {
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin-bottom: 10px;
+}
+.team__skill {
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--text-alternate-color);
+  background-color: transparent;
+  align-self: center;
+  margin-bottom: 16px;
+}
+
+.team__icons {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  margin-top: 16px;
+  color: #afb1b8;
+}
+.team__svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  width: 44px;
+}
+
+.team__icons .team__svg {
+  height: 20px;
+  width: 20px;
+}
+
+.team__icons .team__svg:hover,
+.team__icons .team__svg:focus {
+  color: #fff;
+  border-radius: 50%;
+  background-color: var(--link-active-color);
+  border-color: var(--link-active-color);
+  cursor: pointer;
+}
+
+/* REGULAR COSTUMERS-SECTION */
+
+.customers-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.customers-list__icon {
+  display: flex;
+  border: 1px solid #afb1b8;
+  width: 170px;
+  height: 90px;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 94px;
+}
+
+.customers-list .customers-list__svg:hover {
+  color: var(--link-active-color);
+}
+
+.customers-list__svg {
+  width: 106px;
+  height: 60px;
+  color: #afb1b8;
+}

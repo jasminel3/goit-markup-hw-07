@@ -1,0 +1,122 @@
+.header-flex {
+  display: flex;
+  align-items: center;
+}
+
+.global-header__logo {
+  width: 145px;
+  height: 31px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--link-active-color);
+  text-decoration: none;
+  text-align: left;
+  display: inline-block;
+  margin-top: 2px;
+}
+
+.navigation {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.global-header .main-navigation .navigation {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: block;
+}
+
+.global-header .main-navigation .navigation {
+  display: flex;
+  gap: 50px;
+  justify-content: space-around;
+}
+
+.global-header .main-navigation .navigation__contacts {
+  margin-right: 300px;
+}
+
+.global-header .main-navigation .navigation__studio .link--active {
+  color: var(--link-active-color);
+}
+
+.header-icons {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.header-icons .header-icons__envelope .header-icons__svg {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  color: var(--link-active-color);
+}
+
+.header-icons .header-icons__smartphone .header-icons__svg {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.header-icons .header-icons__envelope:hover,
+.header-icons .header-icons__envelope:focus {
+  color: var(--link-active-color);
+}
+
+.header-icons .header-icons__smartphone:hover,
+.header-icons .header-icons__smartphone:focus {
+  color: var(--link-active-color);
+}
+
+.global-header .main-navigation .link:hover {
+  text-decoration: none;
+  color: var(--link-active-color);
+}
+
+.global-header .main-navigation .link {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #212121;
+  position: relative;
+}
+
+.main-navigation .link:hover::after {
+  display: inline;
+}
+
+.main-navigation .link::after {
+  display: none;
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--link-active-color);
+  bottom: -50px;
+  left: 0;
+}
+
+.global-header .main-navigation .link--active {
+  text-decoration: none;
+  color: var(--link-active-color);
+}
+
+.global-header .main-navigation .phone-number {
+  text-decoration: none;
+  color: var(--text-alternate-color);
+}
+
+.global-header .main-navigation .mail {
+  text-decoration: none;
+  color: var(--text-alternate-color);
+}
